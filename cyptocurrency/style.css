@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;700&family=McLaren&family=Poppins:ital,wght@0,100;0,200;1,100;1,200;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    scroll-margin: 3rem;
+    text-decoration: none;
+
+}
+
+:root {
+    --main-color: #ff9f0d;
+    --text-color: #fff;
+    --other-color: #212121;
+    --second-color: #9e9e9e;
+    --bg-color: #111111;
+    --big-font: 4.5rem;
+    --h2-font: 2.6rem;
+    --p-font: 1.1rem;
+    --second: #4D2DB7;
+
+}
+
+body {
+    background: url(cryptocurrency-img/images/background.png);
+    color: var(--text-color);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    display: flex;
+    margin-top: 32px;
+    padding: 32px 16%;
+    gap: 2rem;
+    transition: all .50 ease;
+
+
+}
+
+.img {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    margin-top: 20px;
+}
+
+.navbar a {
+    color: var(--text-color);
+    font-weight: 800;
+    font-size: var(--p-font);
+    margin: 0px 30px;
+
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+}
+
+.navbar a.active {
+    color: var(--main-color);
+
+}
+
+.btn {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: 800;
+    border: 3px solid var(--second);
+    background: var(--main-color);
+    color: var(--other-color);
+    padding: 12px 13px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px var(--second);
+
+
+}
+
+.btn:hover {
+    background: var(--main-color);
+    box-shadow: 0 0 30px var(--other-color);
+}
+
+section {
+    padding: 30px 16% 70px;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.text {
+    width: 100%;
+    display: inline-block;
+}
+
+.text h1 {
+    font-size: var(--big-font);
+    font-weight: 800;
+    margin-bottom: 30px;
+
+
+}
+
+span {
+    color: var(--main-color);
+}
+
+.text p {
+    font-size: var(--p-font);
+    font-weight: 800;
+    line-height: 2rem;
+    margin-bottom: 40px;
+
+}
+
+.btn-2 {
+    font-size: 25px;
+    color: var(--bg-color);
+    padding: 12px 13px;
+    font-weight: 1100;
+
+    border: 3px solid var(--main-color);
+    border-radius: 15px;
+    background: var(--main-color);
+
+}
+
+.btn-2:hover {
+    background: var(--second);
+    border: 3px solid var(--bg-color);
+    color: var(--text-color);
+}
+
+.box-container {
+    padding: 30px 14% 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+    text-align: center;
+
+}
+
+.icon-container {
+    padding: 30px 30px 30px 30px;
+    background: var(--second);
+    border-radius: 48px;
+
+}
+
+.icon-container h3 {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--main-color);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.icon-container p {
+    font-size: 15px;
+    font-weight: 800;
+
+}
